@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      "x2js",
+      "C:\\Users\\RabidRabbit\\Documents\\Projects\\In-House\\Apps\\Unloc"
+    ]
+  ],
+  "_from": "x2js@latest",
+  "_id": "x2js@2.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/x2js",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "email": "saares@axinom.com",
+    "name": "axinom"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "x2js",
+    "raw": "x2js",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/x2js/-/x2js-2.0.0.tgz",
+  "_shasum": "52264494a304e059f8c7fc32edbb8d796bcfa4c5",
+  "_shrinkwrap": null,
+  "_spec": "x2js",
+  "_where": "C:\\Users\\RabidRabbit\\Documents\\Projects\\In-House\\Apps\\Unloc",
+  "author": {
+    "name": "Axinom"
+  },
+  "bugs": {
+    "url": "https://github.com/Axinom/x2js/issues"
+  },
+  "dependencies": {},
+  "description": "Transforms between XML string and JavaScript object trees.",
+  "devDependencies": {
+    "eslint": "^1.7.3",
+    "eslint-config-axinom": "^1.0.3",
+    "karma": "^0.13.14",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-qunit": "^0.1.7",
+    "qunit-cli": "^0.2.0",
+    "qunitjs": "^1.20.0",
+    "xmldom": "^0.1.19"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "52264494a304e059f8c7fc32edbb8d796bcfa4c5",
+    "tarball": "http://registry.npmjs.org/x2js/-/x2js-2.0.0.tgz"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "qunit": true
+    },
+    "extends": "axinom"
+  },
+  "gitHead": "0fefb93b5a86b9c9a7aca93b2e6d75f3dc5b0f03",
+  "homepage": "https://github.com/Axinom/x2js#readme",
+  "keywords": [
+    "convert",
+    "map",
+    "mapping",
+    "transform",
+    "xml"
+  ],
+  "license": "Apache-2.0",
+  "main": "x2js.js",
+  "maintainers": [
+    {
+      "name": "axinom",
+      "email": "saares@axinom.com"
+    }
+  ],
+  "name": "x2js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axinom/x2js.git"
+  },
+  "scripts": {
+    "test": "karma start --single-run && .\\node_modules\\.bin\\qunit-cli all_tests.js",
+    "travistest": "./node_modules/karma/bin/karma start --single-run --browsers Firefox"
+  },
+  "version": "2.0.0"
+}
